@@ -51,7 +51,7 @@ body {
 }
 
 
-/* first header */
+/* FIRST HEADER */
 .first-header {
     background: var(--color-blue);
 }
@@ -67,11 +67,11 @@ body {
 .fb a{
     color: #fff;
 }
-/* END first header */
+/* END FIRST HEADER */
 
-/* second header */
+/* SECOND HEADER */
 .menu-header {
-    background-color: #fff;
+    background: #F4F3F3;
 }
 
 .menu-header nav {
@@ -92,7 +92,7 @@ body {
     color: var(--color-gray);
     padding: 16px 25px;
 }
-/* second header */
+/* SECOND HEADER */
 
 /* NAV BAR */
 #nav li a, .subnav li a{
@@ -162,6 +162,7 @@ body {
 /* ABOUT */ 
 .about-us {
     color: var(--color-gray);
+    background: #F4F3F3;
 }
 .about-us-total {
     display: flex;
@@ -196,12 +197,14 @@ body {
 }
 
 .about-us-info .more-btn{
+    display: inline-block;
     color: white;
     padding: 10px 20px;
     background: var(--color-lightblue);
     margin: 20px 0 0 35px;
     border-radius: 5px;
     font-weight: 500;
+    font-size: 1.4rem;
 }
 
 .about-us-info .more-btn:hover{
@@ -351,6 +354,10 @@ body {
 }
 .lien-he ul li {
     margin-bottom: 16px;
+}
+.lien-he li i {
+    width: 10px;
+    margin-right: 15px;
 }
 /* for lienhe */
 .last-footer {

@@ -37,7 +37,7 @@
     text-align: center;
     font-size: 1.4rem;
 }
-
+.customer-content{background: #F4F3F3;}
 .customer-content .container{
     display: flex;
 }
@@ -87,3 +87,6 @@
     display: inline-block;
     position: relative;
 }
+
+/* SERVICE */
+.service{background: #F4F3F3;}
