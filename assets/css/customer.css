@@ -32,7 +32,7 @@
 .booking-btn:hover{background-color: #F2C94C;}
 
 /* FEEDBACK */
-
+.customer-feedback{padding-bottom: 50px;}
 .customer-feedback p{
     text-align: center;
     font-size: 1.4rem;
@@ -47,7 +47,7 @@
 }
 
 .feedback-item{
-    padding: 50px 20px 20px 0;
+    padding: 50px 30px 0;
 }
 .feedback-name{color: #056CB6;}
 .feedback{
