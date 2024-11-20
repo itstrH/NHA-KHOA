@@ -158,6 +158,120 @@ body {
     position: relative;
 }
 /* END SLIDER */
+
+/* ABOUT */ 
+.about-us {
+    color: var(--color-gray);
+}
+.about-us-total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.about-us-picture {
+    width: 50%;
+}
+.about-us-info {
+    width: 50%;
+    padding: 0 40px;
+}
+.about-us-info h1{   
+    color: var(--color-lightblue);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.about-us-info p {
+    margin-bottom: 27px;
+}
+.about-us-info ul {
+    padding: 0;
+}
+.about-us-info ul li {
+    margin-bottom: 18px;
+}
+.about-us-info ul li i {
+    color: #F25252;
+    margin-right: 10px;
+}
+
+.about-us-info .more-btn{
+    color: white;
+    padding: 10px 20px;
+    background: var(--color-lightblue);
+    margin: 20px 0 0 35px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.about-us-info .more-btn:hover{
+    background: var(--color-yellow);
+}
+
+/* END ABOUT */
+
+/* SERVICE */
+.service {
+    background: #C4C4C4;
+    text-align: center;
+}
+.service-top {
+    display: inline-block;
+    width: 53%;
+    margin-bottom: 10px;
+}
+.service-top h1 {
+    color: var(--color-lightblue);
+    padding: 38px 0 14px 0;
+}
+.service-top p{
+    color: var(--color-gray);
+    font-size: 13px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -24px;
+}
+.service-image a {
+    display: block;
+}
+.service-item {
+    width: 31.3%;
+    margin: 24px 24px 24px 0;
+    box-shadow: 1px 1px 7px rgb(0, 0, 0,0.1);
+    background: white;
+    text-align: center;
+}
+.service-item:hover {
+    background-color: #D3D3D3;
+}
+.service-item img {
+    max-width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 35px 0;
+}
+.service-list .service-item .service-image {
+    position: relative;
+}
+.service-info {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 80%;
+}
+.service-info h3 {
+    color: black;
+    margin-bottom: 25px;
+}
+.service-info p {
+    color: var(--color-gray);
+    font-size: 14px;
+}
+/* END SERVICE */
+
+
 /* FOOTER */
 .infomation {
     display: flex;
@@ -251,6 +365,3 @@ body {
     margin: 0;
 }
 /* END footer */
-
-/* RESPONSIVE */
-@media screen 
