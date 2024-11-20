@@ -1,0 +1,57 @@
+.pageheader {
+    width: 100%;
+}
+.pageheader-bg {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.pageheader .container{position: relative;}
+
+.customer-action {
+    position: absolute;
+    top: -230px;
+    left: 100px;
+}
+
+.customer-action p {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.booking-btn {
+    display: inline-block;
+    margin-top: 40px;
+    color: #fff;
+    background: #2F80ED;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1.4rem;  
+}
+
+.booking-btn:hover{background-color: #F2C94C;}
+
+/* FEEDBACK */
+
+.customer-feedback p{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.customer-content .container{
+    display: flex;
+}
+
+.feedback-item img{
+    padding: 20px;
+}
+
+.feedback-item{
+    padding: 50px 20px 20px 0;
+}
+.feedback-name{color: #056CB6;}
+.feedback{
+    color: #555;
+    font-style: italic;
+}
