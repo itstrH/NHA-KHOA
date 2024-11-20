@@ -54,3 +54,36 @@
     color: #555;
     font-style: italic;
 }
+
+/* IMAGE */
+.customer-img img{
+    padding: 0 18px 70px;
+}
+.customer-img{
+    padding-top: 100px;
+    padding-bottom: 50px    ;
+}
+
+.customer-img span {
+    position: absolute;
+    padding: 2px 12px 0;
+    background-color: #C4C4C4;
+    color: #777;
+    font-size: 1.4rem;
+}
+
+
+.customer-img .aft {
+    right: 18px;
+    top: -8px;
+}
+
+.customer-img .bef {
+    left: 18px;
+    top: -8px;
+}
+
+.customer-img-item{
+    display: inline-block;
+    position: relative;
+}
