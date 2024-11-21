@@ -13,9 +13,9 @@ a {
     text-decoration: none;
 }
 
-/* reset css */
+/* RESET CSS*/
 
-/* style common */
+/* COMMON */
 :root {
     --color-blue: rgb(5,108,182);
     --color-lightblue: #2F80ED;
@@ -210,7 +210,6 @@ body {
 .about-us-info .more-btn:hover{
     background: var(--color-yellow);
 }
-
 /* END ABOUT */
 
 /* SERVICE */
@@ -275,6 +274,68 @@ body {
 /* END SERVICE */
 
 
+/* FEEDBACK */
+.feedback-section{
+    background: #F4F3F3;
+    padding: 80px 0;
+}
+.feedback .container{
+    font-style: normal;
+}
+.feedback-info{
+    display: block;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    padding: 0 0 10px;
+}
+.feedback-info .h3-blue-title {
+    color:#2F80ED;
+    font-size: 2.4rem;
+    margin: 0;
+    padding: 10px 0;
+}
+.feedback-info p{
+    color: #555;
+    font-size: 1.4rem;
+    margin: 0;
+}
+.feedback-img{
+    display: flex;
+    justify-content: space-between;
+}
+.feedback-img .customer-img{padding: 30px 0 0;}
+.feedback-more-btn{text-align: center; padding: 50px 0 90px;}
+.feedback-more-btn .more-btn{
+    display: inline-block;
+    padding: 10px 15px;
+    background: #F2C94C;
+    color: #fff;
+    border-radius: 4px;
+}
+.feedback-more-btn .more-btn:hover{
+    background: #2F80ED;
+}
+.feedback-review-section{
+    display: flex; 
+    flex-direction: column; 
+    text-align: center; 
+    background: #F8FAF5;
+}
+.feedback-review-section .h3-blue-title{padding-top: 40px;}
+.feedback-review-section .feedback-item{
+    margin: auto;
+    padding: 0;
+    width: 600px;
+}
+.feedback-review-section .feedback-name{margin: -20px 0 0;}
+.dot-bar{margin: -10px;}
+.dot-bar i{font-size: 0.8rem; color: #C4C4C4;}
+.dot-bar .active{color: #F2C94C;}
+/* END FEEDBACK */
+
+
+
 /* FOOTER */
 .infomation {
     display: flex;
@@ -316,9 +377,9 @@ body {
     border: none;
     border-radius: 5px;
 }
-/* for class logo */
+/* LOGO */
 
-/* for thongtin & thoi gian */
+/* INFO AND TIME */
 .thong-tin, .thoi-gian {
     width: 18.666666%;
 }
@@ -336,7 +397,7 @@ body {
     padding: 0; 
 }
 
-/* for thongtin & thoi gian */
+/* END INFO AND TIME */
 
 /* for lienhe */
 .media ul {
@@ -371,4 +432,159 @@ body {
 .last-footer p {
     margin: 0;
 }
-/* END footer */
+/* END FOOTER */
+
+
+/* CUSTOMER SITE STYLE SECTION */
+.pageheader {
+    width: 100%;
+}
+.pageheader-bg {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.pageheader .container{position: relative;}
+
+.customer-action {
+    position: absolute;
+    top: -230px;
+}
+
+.customer-action p {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.booking-btn {
+    display: inline-block;
+    margin-top: 40px;
+    color: #fff;
+    background: #2F80ED;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1.4rem;  
+}
+
+.booking-btn:hover{background-color: #F2C94C;}
+
+/* FEEDBACK */
+.customer-feedback{padding-bottom: 50px;}
+.customer-feedback p{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.customer-content{background: #F4F3F3;}
+.customer-content .container{
+    display: flex;
+}
+
+.feedback-item img{
+    padding: 20px;
+}
+
+.feedback-item{
+    padding: 50px 30px 0;
+}
+.feedback-name{color: #056CB6;}
+.feedback{
+    color: #555;
+    font-style: italic;
+}
+
+/* IMAGE */
+.customer-img img{
+    padding: 0 18px 70px;
+}
+.customer-img{
+    padding-top: 100px;
+    padding-bottom: 50px    ;
+}
+
+.customer-img span {
+    position: absolute;
+    padding: 2px 12px 0;
+    background-color: #C4C4C4;
+    color: #777;
+    font-size: 1.4rem;
+}
+
+
+.customer-img .aft {
+    right: 18px;
+    top: -8px;
+}
+
+.customer-img .bef {
+    left: 18px;
+    top: -8px;
+}
+
+.customer-img-item{
+    display: inline-block;
+    position: relative;
+}
+
+/* CONTACT SITE STYLE SECTION */
+.contact-site-content{
+    color: black;
+    background: #F4F3F3;
+}
+
+.contact-site-input {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.contact-site-input input{
+    width: 220px;
+    padding: 8px;
+    border: 1px solid #C4C4C4;
+}
+
+.contact-site-form textarea{
+    width: 100%;
+    height: 134px;
+    display: block;
+    padding: 10px;
+    border: 1px solid #C4C4C4;
+    resize: none;
+}
+
+.contact-site-summary .cti-title{
+    color: #2F80ED;
+    font-size: 2.4rem;
+    margin: 0;
+}
+.contact-site-summary .cti-desc{
+    color: #555;
+    font-size: 1.4rem;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.contact-site-summary .cti-contact-title{
+    display: block;
+    color: #333;
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+}
+
+.contact-site-summary{padding: 90px 0;}
+.contact-site-info ul{padding: 0;}
+.contact-site-info li i{
+    width: 1rem;
+    color: #F2C94C;
+    margin-right: 15px;
+}
+
+.map-section {
+    padding: 90px 0;
+}
+
+/* SERVICE SITE STYLE SECTION */
+.service-site-main .service{background: #F4F3F3;}
+
+
