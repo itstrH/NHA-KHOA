@@ -29,6 +29,7 @@ body {
     font-family: 'Roboto';
     color: #fff;
     font-size: 1.6rem;
+    background: #F4F3F3;
 }
 .container {
     max-width: 1200px;
@@ -591,6 +592,7 @@ body {
 /* content total */
 .news-full{
     margin-top: 55px;
+    background: #F4F3F3;
 }
 .news-content {
     padding-right: 47px;
