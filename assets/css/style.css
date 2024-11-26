@@ -107,6 +107,11 @@ body {
     text-decoration: none;
     font-size: 1.4rem;
 }
+.nav__mobile{
+    display: none;
+    color: #FFFDFD;
+    background: #056CB6;
+}
 
 #nav{
     display: flex;
@@ -396,7 +401,7 @@ body {
 
 /* INFO AND TIME */
 .thong-tin, .thoi-gian {
-    width: 18.666666%;
+    width: 16.666665%;
 }
 .thong-tin ul li{
     margin-bottom: 1.6rem;
@@ -410,6 +415,11 @@ body {
 }
 .thong-tin ul, .thoi-gian ul, .lien-he ul {
     padding: 0; 
+}
+.thong-tin h3, .thoi-gian h3, .lien-he h3 {
+    border-bottom: 1px solid yellow ;
+    padding-bottom: 20px;
+    width: 50%;
 }
 
 /* END INFO AND TIME */
@@ -847,19 +857,223 @@ body {
 
 
 
-/* Extra small devices (phones, 600px and down)
-@media only screen and (max-width: 576px) {
-   ul{display: none;}
+
+/* RESPONSIVE */
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+    .container{width: 100%;}
+    /* SERVICE */
+    .service {
+        background: #f4f3f3;
+    }
+
+    .service-top {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .service-top h1 {
+        padding: 2rem 0 3rem 0;
+    }
+
+    .service-top p {
+        margin-bottom: 1.5rem;
+    }
+
+    .service-list {
+        margin-left: 0;
+    }
+
+    .service-item {
+        width: 100%;
+        margin: 0 0 2rem 0;
+    }
+
+    .service-item img {
+        width: 80%;
+        margin: 2rem 0; 
+    }
+
+    .service-info {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    .service-info h3 {
+        margin-bottom: 1.5rem;
+    }
+    /* ABOUT US */
+    .about-us-total{
+        flex-direction: column;
+        padding: 3rem 0;
+    }
+    .about-us-picture {
+        width: 100%;
+        padding: 0 0 3rem;
+    }
+    .about-us-info{
+        width: 100%;
+        padding: 0;
+        font-size: 1.4rem;
+    }
+    .about-us-info h1{font-size: 2.4rem;}
+    /* FEEDBACK */
+    .feedback-section{
+        padding: 2rem 0;
+    }
+    .feedback-img-section{
+        width: 100%;
+    }
+    .feedback-img{
+        flex-direction: column;
+    }
+    .customer-img{
+        padding: 3rem 0;
+    }
+    .feedback-img .customer-img img{
+        width: 100%;
+        padding: 0;
+    }
+    .feedback-info{
+        margin: auto;
+        width: 100%;
+    }
+    .feedback-more-btn{
+        padding: 4rem 0;
+    }
+    .aft, .bef{display: none;}
+
+    .feedback-review-section{
+        width: 100%;
+        background: #F8FAF5;
+    }
+    /* HEADER */
+    .header.fixed {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+    .f-header{
+        margin-left: 2rem;
+    }
+    .f-header .fb{display: none;}
+
+    .header-info-mobile{
+        display: block;
+        font-size: 1.5rem;
+    }
+    .header-info-mobile i{margin-right: 8px;}
+
+    .header-info{display: none;}
+
+    .menu-header .right-menu{display: none;}
+    .menu-header{padding: 2rem 0;}
+    .nav__mobile{
+        display: block;
+        padding: 1.5rem 0;
+    }
+    .mobile__content{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 1.5rem;
+        font-size: 1.4rem;
+        align-items: center;
+    }
+    .mobile__content h3{margin: 0; height: 1.4rem;}
+    .mobile__content i{margin: 0; height: 1.4rem; color: #FFFDFD;}
+    .menu-header .nav__bar{display: block;}
+    .nav__bar .menu-logo{
+        width: 50%;
+        padding-bottom: 2rem;
+    }
+    /* FOOTER */
+    .footer {
+        display: block;
+    }
+    .infomation {
+        flex-direction: column; 
+        gap: 2rem;
+    }
+
+    .dang-ky, .thong-tin, .thoi-gian, .lien-he {
+        width: 100%; 
+        margin-right: 0; 
+    }
+
+    .dang-ky {
+        margin-bottom: 1rem; 
+    }
+
+    .dang-ky button {
+        width: 16rem;
+        padding: 1rem;
+    }
+
+    .logo a {
+        margin-bottom: 1.5rem;
+    }
+
+    .thong-tin ul, .thoi-gian ul, .lien-he ul {
+        padding: 0;
+        margin: 0;
+        font-size: 1.4rem;
+    }
+
+    .thong-tin ul li, .thoi-gian ul li, .lien-he ul li {
+        margin-bottom: 1rem;
+    }
+
+    .thong-tin h3, .thoi-gian h3{
+        margin-bottom: 1.5rem;
+        width: 30%;
+        font-size: 2rem;
+    }
+    .lien-he h3 {
+        margin-bottom: 1.5rem;
+        width: 55%;
+        font-size: 2rem;
+    }
+
+    .lien-he ul li {
+        display: flex;
+    }
+
+    .media ul {
+        gap: 1rem;
+    }
+
+    .last-footer {
+        flex-direction: column;
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+}    
+
+/* DESKTOP / LAPS */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    #nav {
+        margin: 0;
+    }
+    #nav li a {
+        display: inline-block;
+        padding: 0 1.5rem 2.5rem;
+    }
 }
- Small devices (portrait tablets and large phones, 600px and up) 
-@media only screen and (min-width: 600px) {}
-
- Medium devices (landscape tablets, 768px and up) 
-@media only screen and (min-width: 768px) {}
-
- Large devices (laptops/desktops, 992px and up) 
-@media only screen and (min-width: 992px) {}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) 
-@media only screen and (min-width: 1200px) {} */
-
+/* TABLETS */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .container {
+        width: 80%;
+    }
+    .menu-logo img{
+        width: 100%;
+    }
+    #nav {
+        margin: 0;
+    }
+    #nav li a {
+        display: inline-block;
+        padding: 0 1rem 2rem;
+    }
+}

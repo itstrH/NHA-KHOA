@@ -43,6 +43,10 @@
                         <i class="fa-regular fa-envelope"></i>
                         <span>info@nhakhoamyphuoc.vn</span>
                     </div>
+                    <div class="header-info-mobile">
+                        <i class="fa-solid fa-phone"></i>
+                        <span style="margin-right: 40px;">1800.2045</span>
+                    </div>
                     <div class="fb">
                         <a href=""><i class="fa-brands fa-facebook-f"></i></a>
                     </div>
@@ -52,12 +56,13 @@
 
         <div class="menu-header">
             <div class="container">
-                <nav>
+                <nav class="nav__bar">
                     <div class="menu-logo">
                         <a href="./index.html">
                             <img src="./assets/img/LOGO 2 MPHUOCHC 1.svg" alt="">
                         </a>
                     </div>
+                    <!-- NAV PC -->
                     <div class="right-menu">
                         <ul id="nav">
                             <li><a href="./index.html">VỀ CHÚNG TÔI</a></li>
@@ -83,6 +88,13 @@
                             <li><a href="./customer-news.html">TIN TỨC & SỰ KIỆN</a></li>
                             <li><a href="./contact.html">LIÊN HỆ</a></li>
                         </ul>
+                    </div>
+                    <!-- NAV MOBILE -->
+                    <div class="nav__mobile">
+                        <div class="mobile__content">
+                            <h3>MENU</h3>
+                            <a class="mobile__btn"><i class="fa-solid fa-bars"></i></a>
+                        </div>
                     </div>
                 </nav>
             </div>
@@ -132,13 +144,15 @@
                         <p class="cti-desc">
                             Nếu quý khách có thắc mắc, ý kiến phản hồi hay đóng góp; xin vui lòng điền vào form dưới đây để liên lạc với chúng tôi. Xin chân thành cảm ơn.
                         </p>
-                        <div class="contact-site-input">
-                            <input type="text" class="" placeholder="Name">
-                            <input type="text" class="" placeholder="Email">
-                            <input type="text" class="" placeholder="Subject">
-                        </div>
-                        <textarea name="" placeholder="Messages"></textarea>
-                        <a href="" class="booking-btn">GỬI THÔNG TIN</a>
+                        <form class="contact__form">
+                            <div class="contact-site-input">
+                                <input type="text" class="" placeholder="Name">
+                                <input type="text" class="" placeholder="Email">
+                                <input type="text" class="" placeholder="Subject">
+                            </div>
+                            <textarea name="" placeholder="Messages"></textarea>
+                            <a href="" class="booking-btn">GỬI THÔNG TIN</a>
+                        </form>
                     </div>
                 </dic>
                 <div class="map-section">
@@ -164,7 +178,6 @@
                     </div>
                     <div class="thong-tin">
                         <h3 class="">THÔNG TIN</h3>
-                        <hr>
                         <ul>
                             <li><a href="./service.html">DỊCH VỤ</a></li>
                             <li><a href="./customer-feedback.html">KHÁCH HÀNG</a></li>
@@ -176,7 +189,6 @@
 
                     <div class="thoi-gian">
                         <h3 class="">THỜI GIAN</h3>
-                        <hr>
                         <ul>
                             <li><a href="#">THỨ 2-THỨ 7<br>8.00 am - 5.00 pm</a></li>
                             <li><a href="#">CHỦ NHẬT<br>10.00 am - 5.00 pm</a></li>
@@ -185,7 +197,7 @@
 
                     <div class="lien-he">
                        <h3 class="">THÔNG TIN LIÊN HỆ</h3>
-                       <hr>
+
                        <ul>
                             <li>
                                 <i class="fa-solid fa-location-dot"></i>
