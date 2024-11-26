@@ -1,1 +1,1 @@
-PTIT - Basic Web Design Final Project/
+PTIT - Basic Web Design Final Term Project
