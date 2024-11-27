@@ -329,6 +329,8 @@ body {
     display: block;
     margin: auto;
     padding: 0 0 1rem;
+    margin: auto;
+    max-width: 80%;
 }
 .feedback-info .h3-blue-title {
     color:#2F80ED;
@@ -339,8 +341,6 @@ body {
 .feedback-info p{
     color: #555;
     font-size: 1.4rem;
-    margin: auto;
-    max-width: 40%;
 }
 .feedback-img{
     display: flex;
@@ -491,18 +491,13 @@ body {
 /* CUSTOMER SITE STYLE SECTION */
 .pageheader {
     width: 100%;
-    /* background: no-repeat url(../img/pageheader.svg); */
-}
-.pageheader-bg {
-    max-width: 100%;
-    height: auto;
-    display: inline-block;
+    background: no-repeat url(../img/pageheader.svg);
+    padding: 7rem 0;
 }
 
 .pageheader .container{position: relative;}
 
 .customer-action {
-    position: absolute;
     top: -23rem;
 }
 
@@ -590,20 +585,19 @@ body {
 .contact-site-input {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
+    max-width: 100%;
 }
 
 .contact-site-input input{
-    width: 220px;
-    padding: 8px;
+    padding: 1rem;
     border: 1px solid #C4C4C4;
 }
-
 .contact-site-form textarea{
     width: 100%;
-    height: 134px;
+    height: 13.4rem;
     display: block;
-    padding: 10px;
+    padding: 1rem;
     border: 1px solid #C4C4C4;
     resize: none;
 }
@@ -636,7 +630,7 @@ body {
 }
 
 .map-section {
-    padding: 90px 0;
+    padding: 9rem 0;
 }
 
 /* SERVICE SITE STYLE SECTION */
@@ -1063,6 +1057,9 @@ body {
     }
 
     /* WHY CHOOSE */
+    .why-choose{
+        padding: 3rem 0;
+    }
     .why-content{
         max-width: 100%;
     }
