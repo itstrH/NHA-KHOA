@@ -319,7 +319,7 @@ body {
 /* FEEDBACK */
 .feedback-section{
     background: #F4F3F3;
-    padding: 8rem 0;
+    padding: 2rem 0 6rem;
     text-align: center;
 }
 .feedback .container{
