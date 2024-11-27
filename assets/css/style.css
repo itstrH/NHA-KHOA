@@ -290,6 +290,31 @@ body {
 }
 /* END SERVICE */
 
+/* WHY CHOOSE */
+.why-choose{
+    max-width: 100%;
+    background: url(../img/about-pic-2.svg) no-repeat center;
+    padding: 15rem 0;
+}
+.why-ans-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.why-ans{
+    width: calc(50% - 3rem);
+}
+.why-content{max-width: 50%;}
+.why-title{
+    display: flex;
+    padding: 0 0 4rem;
+}
+.why-title h3{
+    color: #2F80ED;
+    font-size: 2.4rem;
+    margin: 0;
+}
+/* END WHY CHOOSE */
 
 /* FEEDBACK */
 .feedback-section{
@@ -320,9 +345,13 @@ body {
 }
 .feedback-img{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
 }
-.feedback-img .customer-img{padding: 3rem 0 0;}
+.feedback-img .customer-img{
+    width: calc(50% - 3rem);
+    padding: 4rem 0 0;
+}
 .feedback-more-btn{text-align: center; padding: 0 0 7rem;}
 .feedback-more-btn .more-btn{
     display: inline-block;
@@ -463,7 +492,7 @@ body {
 /* CUSTOMER SITE STYLE SECTION */
 .pageheader {
     width: 100%;
-    background: no-repeat url(../img/pageheader.svg);
+    /* background: no-repeat url(../img/pageheader.svg); */
 }
 .pageheader-bg {
     max-width: 100%;
@@ -927,10 +956,10 @@ body {
     .feedback-img{
         flex-direction: column;
     }
-    .customer-img{
-        padding: 3rem 0;
+    .customer-img img{
+        padding: 3rem 0 0;
     }
-    .feedback-img .customer-img img{
+    .feedback-img .customer-img{
         width: 100%;
         padding: 0;
     }
@@ -946,6 +975,23 @@ body {
     .feedback-review-section{
         width: 100%;
         background: #F8FAF5;
+    }
+
+    /* WHY CHOOSE */
+    .why-content{
+        max-width: 100%;
+    }
+    .why-ans-section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .why-ans{
+        width: 100%;
+    }
+    .why-ans p{margin: 0;}
+    .why-title{
+        padding: 2rem 0;
     }
     /* HEADER */
     .header.fixed {
