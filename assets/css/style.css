@@ -326,7 +326,7 @@ body {
     font-style: normal;
 }
 .feedback-info{
-    display: block;
+    display: block; 
     margin: auto;
     padding: 0 0 1rem;
     margin: auto;
@@ -345,13 +345,28 @@ body {
 .feedback-img{
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
+    justify-content: space-between;
+    padding: 4rem 0;
 }
-.feedback-img .customer-img{
-    width: calc(50% - 3rem);
-    padding: 4rem 0 0;
+.customer-img-item{
+    width: 48%;
+    position: relative;
 }
-.feedback-more-btn{text-align: center; padding: 0 0 7rem;}
+.customer-img-item span {
+    position: absolute;
+    padding: 0.2rem 1.2rem 0;
+    background-color: #C4C4C4;
+    color: #777;
+    font-size: 1.4rem;
+    top: -0.5rem;
+}
+.customer-img-item .aft {
+    right: 0;
+}
+.customer-img-item img{
+    width: 100%;
+}
+.feedback-more-btn{text-align: center; padding: 3rem 0 7rem;}
 .feedback-more-btn .more-btn{
     display: inline-block;
     padding: 1rem 1.5rem;
@@ -381,7 +396,64 @@ body {
 .customer-feedback-main .feedback-item{max-width: 80%;}
 /* END FEEDBACK */
 
-
+/* DENTIST NEWS */
+.dentist__news{padding: 2rem 0 12rem;}
+.dentist__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6rem 0 8rem;
+}
+.dentist__header h3{text-align: center;}
+.dentist__item{
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.dentist__item img{
+    max-width: 100%;
+    padding-bottom: 2rem;
+}
+.dentist__item__content{
+    max-width: 100%;
+}
+.dentist__item__content h3{
+    color: #333;
+    font-size: 2rem;
+}
+.dentist__item__content h3:hover{color: #F2C94C;}
+.dentist__item__content p{
+    color: #555;
+    font-size: 1.4rem;
+}
+.dentist__cmt p{
+    font-size: 1.2rem;
+    display: inline-block;
+    padding-right: 2rem;
+}
+.dentist__booking{
+    display: flex;
+    justify-content: space-between;
+}
+.mobile__hashtag{
+    font-size: 1.4rem;
+    color: #555;
+    display: none;
+}
+.dentist__booking__btn{
+    padding: 1rem 2rem;
+    color: #FFFCFC;
+    background: #2F80ED;
+    border: none;
+    border-radius: 0.4rem;
+    display: inline-block;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.dentist__booking__btn:hover{
+    background:#F2C94C;
+}
+/* END DENTIST NEWS */
 
 /* FOOTER */
 .infomation {
@@ -518,7 +590,7 @@ body {
 
 .booking-btn:hover{background-color: #F2C94C;}
 
-/* FEEDBACK */
+/* CUSTOMER FEEDBACK */
 .customer-feedback{padding-bottom: 50px;}
 .customer-feedback p{
     text-align: center;
@@ -542,38 +614,21 @@ body {
     font-style: italic;
 }
 
-/* IMAGE */
+
+/* CUSTOMER IMAGE */
 .customer-img img{
-    padding: 0 18px 70px;
     width: 100%;
 }
 .customer-img{
     padding-top: 10rem;
-    padding-bottom: 5rem;    ;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.customer-img span {
-    position: absolute;
-    padding: 2px 12px 0;
-    background-color: #C4C4C4;
-    color: #777;
-    font-size: 1.4rem;
-}
-
-
-.customer-img .aft {
-    right: 18px;
-    top: -8px;
-}
-
-.customer-img .bef {
-    left: 18px;
-    top: -8px;
-}
-
-.customer-img-item{
-    display: inline-block;
-    position: relative;
+.customer-img .customer-img-item{
+    padding-bottom: 7rem;
 }
 
 /* CONTACT SITE STYLE SECTION */
@@ -592,6 +647,9 @@ body {
 .contact-site-input input{
     padding: 1rem;
     border: 1px solid #C4C4C4;
+}
+.contact-site-form{
+    padding: 0;
 }
 .contact-site-form textarea{
     width: 100%;
@@ -621,7 +679,14 @@ body {
     padding-bottom: 20px;
 }
 
-.contact-site-summary{padding: 90px 0;}
+.contact-site-summary{
+    padding: 9rem 0;
+}
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-site-info{padding: 0;}
 .contact-site-info ul{padding: 0;}
 .contact-site-info li i{
     width: 1rem;
@@ -658,10 +723,11 @@ body {
 }
 .news-image-content h3{
     margin-bottom: 10px;
-    color: #F2C94C;
+    color: #000;
     font-size: 20px;
     font-weight: 600;
 }
+.news-image-content h3:hover{color: #F2C94C;}
 .news-image-content span {
     font-size: 13px;
 }
@@ -970,6 +1036,7 @@ body {
 /* MOBILE */
 @media only screen and (max-width: 600px) {
     .container{width: 100%;}
+    .body{background-color: #FFF;}
     /* SERVICE */
     .service {
         background: #f4f3f3;
@@ -1035,12 +1102,9 @@ body {
     .feedback-img{
         flex-direction: column;
     }
-    .customer-img img{
-        padding: 3rem 0 0;
-    }
-    .feedback-img .customer-img{
+    .customer-img-item{
         width: 100%;
-        padding: 0;
+        padding: 2rem 0;
     }
     .feedback-info{
         margin: auto;
@@ -1074,6 +1138,35 @@ body {
     .why-ans p{margin: 0;}
     .why-title{
         padding: 2rem 0;
+    }
+    /* DENTIST NEWS */
+    .dentist__list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 4rem 0 0;
+    }
+    .dentist__item{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+    .dentist__item__content{
+        max-width: 100%;
+    }
+    .dentist__booking{
+        display: block;
+        padding: 2rem 0;
+        background: #F4F3F3;
+    }
+    .dentist__booking__btn{
+        display: inline-block;
+    }
+    .mobile__hashtag{
+        display: block;
+        padding: 3rem 0;
+        margin: 0;
     }
     /* HEADER */
     .header.fixed {
