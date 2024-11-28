@@ -718,6 +718,7 @@ body {
 /* content total */
 
 /* for content1 */
+.news-image img{width: 93%;}
 .news-image-content {
     margin: 30px 0;
 }
