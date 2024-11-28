@@ -1119,7 +1119,9 @@ body {
     .feedback-more-btn{
         padding: 4rem 0;
     }
-    .aft, .bef{display: none;}
+    .customer-img-item span {
+        top: 1rem;
+    }
 
     .feedback-review-section{
         width: 100%;
