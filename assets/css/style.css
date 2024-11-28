@@ -1004,9 +1004,10 @@ body {
 .team__lineup{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .team__item{
-    width: 25%;
+    width: 24%;
     text-align: center;
 }
 .team__item img{
@@ -1093,6 +1094,10 @@ body {
         font-size: 1.4rem;
     }
     .about-us-info h1{font-size: 2.4rem;}
+    .team__lineup{
+        flex-direction: column;
+    }
+    .team__item{width: 100%;}
     /* FEEDBACK */
     .feedback-section{
         padding: 2rem 0;
