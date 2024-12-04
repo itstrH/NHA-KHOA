@@ -328,7 +328,7 @@ body {
     margin: auto;
     max-width: 80%;
 }
-.feedback-info .h3-blue-title {
+.feedback-info h3 {
     color:#2F80ED;
     font-size: 2.4rem;
     margin: 0;
@@ -338,6 +338,7 @@ body {
     color: #555;
     font-size: 1.4rem;
 }
+    /* FEEDBACK IMG */
 .feedback-img{
     display: flex;
     flex-wrap: wrap;
@@ -362,7 +363,10 @@ body {
 .customer-img-item img{
     width: 100%;
 }
-.feedback-more-btn{text-align: center; padding: 3rem 0 7rem;}
+.feedback-more-btn{
+    text-align: center;
+    padding: 3rem 0 7rem;
+}
 .feedback-more-btn .more-btn{
     display: inline-block;
     padding: 1rem 1.5rem;
@@ -373,23 +377,44 @@ body {
 .feedback-more-btn .more-btn:hover{
     background: #F2C94C;
 }
+    /* FEEDBACK REVIEW */
 .feedback-review-section{
-    display: flex; 
-    flex-direction: column; 
+    display: block; 
     text-align: center; 
     background: #F8FAF5;
 }
-.feedback-review-section .h3-blue-title{padding-top: 4rem;}
-.feedback-review-section .feedback-item{
+.feedback-review-section .h3-blue-title{
+    padding: 4rem 0 2rem;
+}
+.feedback-content{
     margin: auto;
     padding: 0;
-    width: 60rem;
+    max-width: 50%;
 }
-.feedback-review-section .feedback-name{margin: -2rem 0 0;}
-.dot-bar{margin: -1rem;}
+.feedback-content p{
+    margin: 0;
+}
+.feedback-content img{
+    padding: 3rem 0 2rem;
+}
+.feedback-content .feedback-text{
+    color: #555;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 300;
+}
+.feedback-content .feedback-user{
+    margin: -1.5rem 0 0;
+    color: #056CB6;
+}
+.dot-bar{
+    margin-top: -0.5rem;
+    padding-bottom: 1rem;
+}
 .dot-bar i{font-size: 0.8rem; color: #C4C4C4;}
 .dot-bar .active{color: #F2C94C;}
-.customer-feedback-main .feedback-item{max-width: 80%;}
+
 /* END FEEDBACK */
 
 /* DENTIST NEWS */
@@ -588,7 +613,7 @@ body {
 .booking-btn:hover{background-color: #F2C94C;}
 
 /* CUSTOMER FEEDBACK */
-.customer-feedback{padding-bottom: 50px;}
+.customer-feedback{padding-bottom: 5rem;}
 .customer-feedback p{
     text-align: center;
     font-size: 1.4rem;
@@ -623,11 +648,9 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 .customer-img .customer-img-item{
     padding-bottom: 7rem;
 }
-
 /* CONTACT SITE STYLE SECTION */
 .contact-site-content{
     color: black;
