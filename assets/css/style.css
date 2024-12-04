@@ -34,13 +34,8 @@ body {
 }
 .container {
     width: 120rem;
-    /* max-width: calc(100% - 4.8rem); */
     margin: 0 auto;
     padding: 0 1.2rem;
-}
-.container::after {
-    clear: both;
-    display: block;
 }
 
 .info-full {
@@ -111,6 +106,7 @@ body {
     display: none;
     color: #FFFDFD;
     background: #056CB6;
+    padding: 1.5rem 0;
 }
 
 #nav{
@@ -584,6 +580,7 @@ body {
     color: #fff;
     background: #2F80ED;
     border-radius: 0.4rem;
+    border: none;
     padding: 1rem 2rem;
     font-size: 1.4rem;  
 }
@@ -1201,7 +1198,6 @@ body {
     .menu-header{padding: 2rem 0;}
     .nav__mobile{
         display: block;
-        padding: 1.5rem 0;
     }
     .mobile__content{
         display: flex;
