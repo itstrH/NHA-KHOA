@@ -1,3 +1,4 @@
+/* RESET CSS*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');reset css
 *{
     padding: 0;
@@ -5,63 +6,57 @@
     box-sizing: border-box;
 }
 
-ul {
+ul{
     list-style-type: none;
 }
 
-a {
+a{
     text-decoration: none;
 }
-
-/* RESET CSS*/
-
 /* COMMON */
-:root {
+:root{
     --color-blue: rgb(5,108,182);
     --color-lightblue: #2F80ED;
     --color-yellow: #F2C94C;
     --color-gray: #666666;
 }
-html {
+html{
     font-size: 62.5%;
 }
-body {
+body{
     font-family: 'Roboto';
     color: #fff;
     font-size: 1.6rem;
     background: #F4F3F3;
     display: block;
 }
-.container {
+.container{
     width: 120rem;
     margin: 0 auto;
     padding: 0 1.2rem;
 }
 
-.info-full {
+.info-full{
     background: var(--color-lightblue);
     padding: 4rem 0;
 }
-
 /* HEADER */
-.header.fixed {
+.header.fixed{
     position: sticky;
     top: -5.5rem;
     left: 0;
     right: 0;
     z-index: 1;
 }
-
-
 /* FIRST HEADER */
-.first-header {
+.first-header{
     background: #056CB6;
 }
 .header-info-mobile{display: none;}
-.header-info i {
+.header-info i{
     padding-right: 1.5rem;
 }
-.f-header {
+.f-header{
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 0;
@@ -72,16 +67,16 @@ body {
 /* END FIRST HEADER */
 
 /* SECOND HEADER */
-.menu-header {
+.menu-header{
     background: #F4F3F3;
 }
 .menu-logo img{width: 100%;}
-.menu-header nav {
+.menu-header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.right-menu {
+.right-menu{
     padding-top: 2.5rem;
 }
 .right-menu ul{
@@ -89,14 +84,13 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.right-menu li a {
+.right-menu li a{
     display: inline-block;
     color: var(--color-gray);
     padding: 1.6rem 2.5rem;
     font-size: 1.4rem;
 }
 /* SECOND HEADER */
-
 /* NAV BAR */
 #nav li a, .subnav li a{
     text-decoration: none;
@@ -171,21 +165,21 @@ body {
 /* END SLIDER */
 
 /* ABOUT */ 
-.about-us {
+.about-us{
     color: var(--color-gray);
     background: #F4F3F3;
 }
-.about-us-total {
+.about-us-total{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 4rem 0;
 }
-.about-us-picture {
+.about-us-picture{
     width: 50%;
 }
 .about-us-picture img{width: 100%;}
-.about-us-info {
+.about-us-info{
     width: 50%;
     padding: 0 4rem;
 }
@@ -194,16 +188,16 @@ body {
     margin-bottom: 2rem;
     font-weight: 600;
 }
-.about-us-info p {
+.about-us-info p{
     margin-bottom: 2.7rem;
 }
-.about-us-info ul {
+.about-us-info ul{
     padding: 0;
 }
-.about-us-info ul li {
+.about-us-info ul li{
     margin-bottom: 1.8rem;
 }
-.about-us-info ul li i {
+.about-us-info ul li i{
     color: #F25252;
     margin-right: 1rem;
 }
@@ -225,16 +219,16 @@ body {
 /* END ABOUT */
 
 /* SERVICE */
-.service {
+.service{
     background: #C4C4C4;
     text-align: center;
 }
-.service-top {
+.service-top{
     display: inline-block;
     width: 53%;
     margin-bottom: 1rem;
 }
-.service-top h1 {
+.service-top h1{
     color: var(--color-lightblue);
     padding: 3.8rem 0 1.4rem 0;
 }
@@ -243,15 +237,15 @@ body {
     font-size: 1.3rem;
 }
 
-.service-list {
+.service-list{
     display: flex;
     flex-wrap: wrap;
     margin-left: -2.4rem;
 }
-.service-image a {
+.service-image a{
     display: block;
 }
-.service-item {
+.service-item{
     width: calc(33.333333% - 2.5rem);
     margin-left: 2.5rem;
     margin-bottom: 3.5rem;
@@ -259,28 +253,28 @@ body {
     background: #fff;
     text-align: center;
 }
-.service-item:hover {
+.service-item:hover{
     background-color: #D3D3D3;
 }
-.service-item img {
+.service-item img{
     width: 100%;
     display: inline-block;
     text-align: center;
     margin: 3.5rem 0;
 }
-.service-list .service-item .service-image {
+.service-list .service-item .service-image{
     position: relative;
 }
-.service-info {
+.service-info{
     display: inline-block;
     margin-bottom: 3rem;
     width: 80%;
 }
-.service-info h3 {
+.service-info h3{
     color: #000;
     margin-bottom: 2.5rem;
 }
-.service-info p {
+.service-info p{
     color: var(--color-gray);
     font-size: 1.4rem;
 }
@@ -328,7 +322,7 @@ body {
     margin: auto;
     max-width: 80%;
 }
-.feedback-info h3 {
+.feedback-info h3{
     color:#2F80ED;
     font-size: 2.4rem;
     margin: 0;
@@ -338,7 +332,7 @@ body {
     color: #555;
     font-size: 1.4rem;
 }
-    /* FEEDBACK IMG */
+    /* FEEDBACK IMG SECTION*/
 .feedback-img{
     display: flex;
     flex-wrap: wrap;
@@ -349,7 +343,7 @@ body {
     width: 48%;
     position: relative;
 }
-.customer-img-item span {
+.customer-img-item span{
     position: absolute;
     padding: 0.2rem 1.2rem 0;
     background-color: #C4C4C4;
@@ -357,7 +351,7 @@ body {
     font-size: 1.4rem;
     top: -0.5rem;
 }
-.customer-img-item .aft {
+.customer-img-item .aft{
     right: 0;
 }
 .customer-img-item img{
@@ -377,7 +371,7 @@ body {
 .feedback-more-btn .more-btn:hover{
     background: #F2C94C;
 }
-    /* FEEDBACK REVIEW */
+    /* FEEDBACK REVIEW SECTION */
 .feedback-review-section{
     display: block; 
     text-align: center; 
@@ -419,7 +413,7 @@ body {
 
 /* DENTIST NEWS */
 .dentist__news{padding: 2rem 0 12rem;}
-.dentist__list {
+.dentist__list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -477,15 +471,15 @@ body {
 /* END DENTIST NEWS */
 
 /* FOOTER */
-.infomation {
+.infomation{
     display: flex;
 }
 
-.infomation a {
+.infomation a{
     color: #fff;
 }
 
-.thoi-gian hr,.thong-tin hr,.lien-he hr {
+.thoi-gian hr,.thong-tin hr,.lien-he hr{
     color: yellow;
     margin-bottom: 2rem;
     width: 50%; 
@@ -502,14 +496,14 @@ body {
     width: 32.66667%
 }
 .lien-he li i{margin-right: 1rem; color: var(--color-yellow);}
-.logo a {
+.logo a{
     display: inline-block;
     margin-bottom: 2.8rem;
 }
-.dang-ky p {
+.dang-ky p{
     margin-bottom: 2.4rem;
 }
-.dang-ky button {
+.dang-ky button{
     margin-top: 3rem;
     padding: 1.2rem 2.2rem;
     background: var(--color-yellow);
@@ -521,23 +515,23 @@ body {
 /* LOGO */
 
 /* INFO AND TIME */
-.thong-tin, .thoi-gian {
+.thong-tin, .thoi-gian{
     width: 16.666665%;
 }
 .thong-tin ul li{
     margin-bottom: 1.6rem;
 }
 .thong-tin li a:hover{color: var(--color-yellow);}
-.thong-tin h3, .thoi-gian h3 {
+.thong-tin h3, .thoi-gian h3{
     margin-bottom: 2.8rem;
 }
-.thoi-gian ul li {
+.thoi-gian ul li{
     margin-bottom: 3rem;
 }
-.thong-tin ul, .thoi-gian ul, .lien-he ul {
+.thong-tin ul, .thoi-gian ul, .lien-he ul{
     padding: 0; 
 }
-.thong-tin h3, .thoi-gian h3, .lien-he h3 {
+.thong-tin h3, .thoi-gian h3, .lien-he h3{
     border-bottom: 1px solid yellow ;
     padding-bottom: 20px;
     width: 50%;
@@ -546,28 +540,28 @@ body {
 /* END INFO AND TIME */
 
 /* for lienhe */
-.media ul {
+.media ul{
     display: flex;
 }
-.media ul li i {
+.media ul li i{
     display: flex;
     padding: 0.8rem;
 }
-.media {
+.media{
     color: #fff;
 }
-.lien-he h3 {
+.lien-he h3{
     margin-bottom: 2.8rem;
 }
-.lien-he ul li {
+.lien-he ul li{
     margin-bottom: 1.6rem;
 }
-.lien-he li i {
+.lien-he li i{
     width: 1rem;
     margin-right: 1.5rem;
 }
 /* for lienhe */
-.last-footer {
+.last-footer{
     color: #fff;
     background: var(--color-yellow);
     text-align: center;
@@ -575,14 +569,14 @@ body {
     display: flex;
     justify-content: center;
 }
-.last-footer p {
+.last-footer p{
     margin: 0;
 }
 /* END FOOTER */
 
 
 /* CUSTOMER SITE STYLE SECTION */
-.pageheader {
+.pageheader{
     width: 100%;
     background: no-repeat url(../img/pageheader.svg);
     padding: 7rem 0;
@@ -590,16 +584,16 @@ body {
 
 .pageheader .container{position: relative;}
 
-.customer-action {
+.customer-action{
     top: -23rem;
 }
 
-.customer-action p {
+.customer-action p{
     color: #fff;
     font-size: 1.8rem;
 }
 
-.booking-btn {
+.booking-btn{
     display: inline-block;
     margin-top: 4rem;
     color: #fff;
@@ -657,7 +651,7 @@ body {
     background: #F4F3F3;
 }
 
-.contact-site-input {
+.contact-site-input{
     display: flex;
     justify-content: space-between;
     padding-bottom: 2rem;
@@ -714,7 +708,7 @@ body {
     margin-right: 15px;
 }
 
-.map-section {
+.map-section{
     padding: 9rem 0;
 }
 
@@ -726,20 +720,20 @@ body {
     margin-top: 55px;
     background: #F4F3F3;
 }
-.news-content {
+.news-content{
     padding-right: 47px;
 }
-.content1 {
+.content1{
     width: 68%;
 }
-.content2 {
+.content2{
     width: 32%;
 }
 /* content total */
 
 /* for content1 */
 .news-image img{width: 93%;}
-.news-image-content {
+.news-image-content{
     margin: 30px 0;
 }
 .news-image-content h3{
@@ -749,27 +743,27 @@ body {
     font-weight: 600;
 }
 .news-image-content h3:hover{color: #F2C94C;}
-.news-image-content span {
+.news-image-content span{
     font-size: 13px;
 }
-.content-year {
+.content-year{
     color: red;
     margin-right: 14px;
 }
-.content-talk {
+.content-talk{
     color: black;
 }
-.content-box {
+.content-box{
     display: flex;
 }
-.news-content h3 {
+.news-content h3{
     margin-top: 20px;
     color: #555555;
 }
-.news-content p {
+.news-content p{
     color: #666;
 }
-.news-content h1 {
+.news-content h1{
     color: #666;
     font-style: oblique;
     font-weight: 400;
@@ -778,14 +772,14 @@ body {
 /* for content1 */
 
 /* for content2 */
-.search-bar {
+.search-bar{
     display: flex;
     background: white;
     margin-bottom: 20px;
     padding: 30px 20px;
   }
   
-.search-bar input {
+.search-bar input{
     flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
@@ -793,7 +787,7 @@ body {
     outline: none;
 }
   
-.search-bar button {
+.search-bar button{
     padding: 0 22px;
     background-color: #056CB6;
     border: none;
@@ -801,11 +795,11 @@ body {
     cursor: pointer;
   }
   
-.search-bar button i {
+.search-bar button i{
     color: white;
 }
   
-.section {
+.section{
     background: #fff;
     padding: 40px 0 40px 20px;
     margin-bottom: 30px;
@@ -814,25 +808,25 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
   
-.section h2 {
+.section h2{
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 18px;
     color: #007bff;
 }
   
-.section ul {
+.section ul{
     list-style: none;
     padding: 0;
     margin: 0;
 }
   
-.section ul li {
+.section ul li{
     margin: 8px 0;
     font-size: 14px;
     color: #666;
 }
-.section ul li i {
+.section ul li i{
     color: #007bff;
     margin-right: 5px;
 }
@@ -841,23 +835,23 @@ body {
     margin-right: 5px;
 }
   
-.post {
+.post{
     margin-bottom: 10px;
 }
-.news-content h2 {
+.news-content h2{
     color: #007bff;
 }
-.news-content h1 {
+.news-content h1{
     padding-bottom: 20px;
     border-bottom: 0.5px solid black;
 }
-.post p {
+.post p{
     font-size: 14px;
     color: #666;
 
 }
   
-.post span {
+.post span{
     font-size: 12px;
     color: red;
 }
@@ -875,20 +869,20 @@ body {
     font-weight: 500;
     margin-bottom: 30px;
 }
-.news-post-box {
+.news-post-box{
     display: flex;
     width: 68%;
     justify-content: space-between;
 }
-.news-post-content1, .news-post-content2 {
+.news-post-content1, .news-post-content2{
     display: inline-block;
     text-align: center;
 }
-.news-post-box h2 {
+.news-post-box h2{
     color: #F2C94C;
     margin: 20px 0;
 }
-.news-post-box p {
+.news-post-box p{
     color: #ccc;
     text-align: left;
 }
@@ -898,33 +892,33 @@ body {
 /* News post */
 
 /* for feedback */
-.news-feedback {
+.news-feedback{
     margin: 35px 0;
 }
-.news-feedback-box {
+.news-feedback-box{
     width: 68%;
     border-bottom: 1px solid black;
 }
-.news-feedback h1 {
+.news-feedback h1{
     color: black;
     margin-bottom: 30px;
 }
-.feedback-img1, .feedback-img2 {
+.feedback-img1, .feedback-img2{
     margin-right: 10px;
 }
-.feedback-box1, .feedback-box2 {
+.feedback-box1, .feedback-box2{
     display: flex;
     margin-bottom: 30px;
 }
-.feedback-box1 .year, .feedback-box2 .year {
+.feedback-box1 .year, .feedback-box2 .year{
     color: #ccc;
 }
-.name, .cmt {
+.name, .cmt{
     color: #666;
 }
 
 
-.btn2 {
+.btn2{
     border: none;
     padding: 10px 20px;
     background:#007bff;
@@ -936,38 +930,38 @@ body {
 
 /* for feedback */
 
-.custom-width {
+.custom-width{
     width: 68%;
     margin-bottom: 3rem;
 }
 
-.news-help h3 {
+.news-help h3{
     font-size: 2rem;
     color: #666;
     margin-bottom: 20px;
 }
 
-.form-control {
+.form-control{
     font-size: 1.3rem;
     padding: 14px;
     resize: none;
 }
 
-.form-label {
+.form-label{
     font-size: 1.4rem;
 }
 
-.btn-primary {
+.btn-primary{
     font-size: 1.4rem;
     padding: 0.4rem 1.5rem; 
 }
 /* MAIN NEWS SITE STYLE */
-.news-image-content p {
+.news-image-content p{
     color: var(--color-gray);
     margin-top: 10px;
     padding-right: 47px;
 }
-.main-news-btn {
+.main-news-btn{
     display: inline-block;
     background: var(--color-lightblue);
     color: white;
@@ -976,10 +970,10 @@ body {
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
-.main-news-btn:hover {
+.main-news-btn:hover{
     background: var(--color-yellow);
 }
-.main-news-last {
+.main-news-last{
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
@@ -987,16 +981,16 @@ body {
     width: 93%;
 }
 
-.ppap {
+.ppap{
     font-size: 12px;
     margin-bottom: 30px;
 }
-.main-pages ul {
+.main-pages ul{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.main-pages ul li {
+.main-pages ul li{
     margin-right: 35px;
     padding: 10px 15px;
     border: none;
@@ -1004,7 +998,7 @@ body {
     background: gray;
     color: white;
 }
-.main-pages ul li:hover {
+.main-pages ul li:hover{
     background: #056CB6;
 }
 
@@ -1056,47 +1050,47 @@ body {
 
 /* RESPONSIVE */
 /* MOBILE */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px){
     .container{width: 100%;}
     .body{background-color: #FFF;}
     /* SERVICE */
-    .service {
+    .service{
         background: #f4f3f3;
     }
 
-    .service-top {
+    .service-top{
         width: 100%;
         margin-bottom: 2rem;
     }
 
-    .service-top h1 {
+    .service-top h1{
         padding: 2rem 0 3rem 0;
     }
 
-    .service-top p {
+    .service-top p{
         margin-bottom: 1.5rem;
     }
 
-    .service-list {
+    .service-list{
         margin-left: 0;
     }
 
-    .service-item {
+    .service-item{
         width: 100%;
         margin: 0 0 2rem 0;
     }
 
-    .service-item img {
+    .service-item img{
         width: 80%;
         margin: 2rem 0; 
     }
 
-    .service-info {
+    .service-info{
         width: 80%;
         margin-bottom: 2rem;
     }
 
-    .service-info h3 {
+    .service-info h3{
         margin-bottom: 1.5rem;
     }
     /* ABOUT US */
@@ -1104,7 +1098,7 @@ body {
         flex-direction: column;
         padding: 3rem 0;
     }
-    .about-us-picture {
+    .about-us-picture{
         width: 100%;
         padding: 0 0 3rem;
     }
@@ -1139,7 +1133,7 @@ body {
     .feedback-more-btn{
         padding: 4rem 0;
     }
-    .customer-img-item span {
+    .customer-img-item span{
         top: 1rem;
     }
 
@@ -1168,7 +1162,7 @@ body {
         padding: 2rem 0;
     }
     /* DENTIST NEWS */
-    .dentist__list {
+    .dentist__list{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -1197,7 +1191,7 @@ body {
         margin: 0;
     }
     /* HEADER */
-    .header.fixed {
+    .header.fixed{
         position: relative;
         top: 0;
         left: 0;
@@ -1223,53 +1217,57 @@ body {
         display: block;
     }
     .mobile__content{
+        padding: 0;
         display: flex;
         justify-content: space-between;
         margin: 0 1.5rem;
         font-size: 1.4rem;
         align-items: center;
     }
-    .mobile__content h3{margin: 0; height: 1.4rem;}
-    .mobile__content i{margin: 0; height: 1.4rem; color: #FFFDFD;}
+    .mobile__content li a{
+        color: #FFFDFD;
+        font-weight: 500;
+    }
+    .mobile__content a i{margin: 0; height: 1.4rem; color: #FFFDFD;}
     .menu-header .nav__bar{display: block;}
     .nav__bar .menu-logo{
         width: 50%;
         padding-bottom: 2rem;
     }
     /* FOOTER */
-    .footer {
+    .footer{
         display: block;
     }
-    .infomation {
+    .infomation{
         flex-direction: column; 
         gap: 2rem;
     }
 
-    .dang-ky, .thong-tin, .thoi-gian, .lien-he {
+    .dang-ky, .thong-tin, .thoi-gian, .lien-he{
         width: 100%; 
         margin-right: 0; 
     }
 
-    .dang-ky {
+    .dang-ky{
         margin-bottom: 1rem; 
     }
 
-    .dang-ky button {
+    .dang-ky button{
         width: 16rem;
         padding: 1rem;
     }
 
-    .logo a {
+    .logo a{
         margin-bottom: 1.5rem;
     }
 
-    .thong-tin ul, .thoi-gian ul, .lien-he ul {
+    .thong-tin ul, .thoi-gian ul, .lien-he ul{
         padding: 0;
         margin: 0;
         font-size: 1.4rem;
     }
 
-    .thong-tin ul li, .thoi-gian ul li, .lien-he ul li {
+    .thong-tin ul li, .thoi-gian ul li, .lien-he ul li{
         margin-bottom: 1rem;
     }
 
@@ -1278,21 +1276,21 @@ body {
         width: 30%;
         font-size: 2rem;
     }
-    .lien-he h3 {
+    .lien-he h3{
         margin-bottom: 1.5rem;
         width: 55%;
         font-size: 2rem;
     }
 
-    .lien-he ul li {
+    .lien-he ul li{
         display: flex;
     }
 
-    .media ul {
+    .media ul{
         gap: 1rem;
     }
 
-    .last-footer {
+    .last-footer{
         flex-direction: column;
         padding: 1rem;
         font-size: 1.4rem;
@@ -1300,27 +1298,27 @@ body {
 }    
 
 /* DESKTOP / LAPS */
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-    #nav {
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    #nav{
         margin: 0;
     }
-    #nav li a {
+    #nav li a{
         display: inline-block;
         padding: 0 1.5rem 2.5rem;
     }
 }
 /* TABLETS */
-@media only screen and (min-width: 600px) and (max-width: 992px) {
-    .container {
+@media only screen and (min-width: 600px) and (max-width: 992px){
+    .container{
         width: 80%;
     }
     .menu-logo img{
         width: 100%;
     }
-    #nav {
+    #nav{
         margin: 0;
     }
-    #nav li a {
+    #nav li a{
         display: inline-block;
         padding: 0 1rem 2rem;
     }
