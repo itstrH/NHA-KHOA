@@ -294,7 +294,7 @@ body{
 .why-ans{
     width: calc(50% - 3rem);
 }
-.why-content{max-width: 50%;}
+.why-content{width: 50%;}
 .why-title{
     display: flex;
     padding: 0 0 4rem;
@@ -421,16 +421,16 @@ body{
 }
 .dentist__header h3{text-align: center;}
 .dentist__item{
-    max-width: 30%;
+    width: 30%;
     display: flex;
     flex-direction: column;
 }
 .dentist__item img{
-    max-width: 100%;
+    width: 100%;
     padding-bottom: 2rem;
 }
 .dentist__item__content{
-    max-width: 100%;
+    width: 100%;
 }
 .dentist__item__content h3{
     color: #333;
@@ -1116,9 +1116,6 @@ body{
     .feedback-section{
         padding: 2rem 0;
     }
-    .feedback-img-section{
-        width: 100%;
-    }
     .feedback-img{
         flex-direction: column;
     }
@@ -1147,7 +1144,7 @@ body{
         padding: 3rem 0;
     }
     .why-content{
-        max-width: 100%;
+        width: 100%;
     }
     .why-ans-section{
         display: flex;
@@ -1163,19 +1160,12 @@ body{
     }
     /* DENTIST NEWS */
     .dentist__list{
-        display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
         padding: 4rem 0 0;
     }
     .dentist__item{
-        max-width: 100%;
-        display: flex;
-        flex-direction: column;
+        width: 100%;
         padding-bottom: 3rem;
-    }
-    .dentist__item__content{
-        max-width: 100%;
     }
     .dentist__booking{
         display: block;
